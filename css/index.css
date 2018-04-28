@@ -1,0 +1,98 @@
+* {
+    font-family: "Open Sans";
+    scroll-behavior: smooth;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #096593;
+    border-color: #096593;
+}
+
+.btn-primary:hover {
+    background-color: #055075;
+    border-color: #055075;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:active {
+    background-color: #055075;
+    border-color: #055075;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(5,80,117,.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):focus:active,
+.btn-primary:focus:active {
+    box-shadow: 0 0 0 .2rem rgba(5,80,117,.5);
+    background-color: #044a6c;
+    border-color: #044a6c;
+}
+
+body {
+    background-image: url("../image/fond-principale-image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    min-height: 90vh;
+}
+
+.principal-texte .container h1 {
+    font-family: "Sansation";
+}
+
+@media screen and (min-width: 640px) {
+    .principal-texte .container h1 {
+        font-size: 6vw;
+    }
+
+    .principal-texte {
+        margin-top: 20vh;
+    }
+
+    .principal-texte .container p.lead {
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+    }
+
+    .principal-texte .container a.btn {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .jumbotron {
+        text-align: center;
+    }
+
+    .principal-texte .container h1 {
+        font-size: 10vw;
+    }
+
+    .principal-texte {
+        margin-top: 5em;
+    }
+
+    .principal-texte .container p.lead {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .principal-texte .container a.btn {
+        font-size: 1.3em;
+    }
+}
+
+.section-texte {
+    background-color: white;
+}
