@@ -68,6 +68,10 @@ body {
     .principal-texte .container a.btn {
         font-size: 1.5em;
     }
+
+    #carousel-methodes img {
+        min-height: 300px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -104,3 +108,10 @@ body {
     margin-bottom: 20px;
 }
 
+#carousel-methodes img {
+    background-color: #888;
+}
+
+.card {
+    margin-top: 20px;
+}

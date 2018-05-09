@@ -16,6 +16,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/index.css">
+        <script type="text/javascript" src="javascript/index.js"></script>
     </head>
 
     <body>
@@ -45,7 +46,7 @@
                         <a class="nav-link" href="#l-entreprise">L'entreprise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#les-méthodes">Les méthodes</a>
+                        <a class="nav-link" href="#les-méthodes">Nos méthodes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#l'équipe">L'équipe</a>
@@ -95,9 +96,84 @@
         </div>
         <div class="container-fluid section-texte">
             <div class="container">
-                <h1 id="les-méthodes">Les méthodes</h1>
+                <h1 id="les-méthodes">Nos méthodes</h1>
+                <p>
+                    Nous adaptons nos méthodes de gestion à chaque projet, vous garantissant ainsi l'organisation la plus adaptée à votre fonctionnement.
+                </p>
+                <div id="carousel-methodes" class="carousel slide d-none d-md-block" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="image/scrum.png" alt="First slide">
+                            <div class="carousel-caption">
+                                <h4>Scrum</h4>
+                                <p>Vous êtes capable de vous investir à 200&nbsp;% dans votre projet&nbsp;?</p>
+                                <p>Vous voulez pouvoir disposer de votre outil le plus tôt possible&&nbsp;?</p>
+                                <p>Nous pouvons vous former à cette méthode&nbsp;!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/kanban.png" alt="Second slide">
+                            <div class="carousel-caption">
+                                <h5>Kanban</h5>
+                                <p>Vous travaillez en Kanban et souhaitez intégrer notre entreprise à vos process ?</p>
+                                <p>Vous souhaitez savoir où nous en sommes et ce sur quoi nous travaillons en temps réel ?</p>
+                                <p>Nous sommes capables de vous offrir cette transparence&nbsp;!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/cycle-v.png" alt="Third slide">
+                            <div class="carousel-caption">
+                                <h5>Cycle en V</h5>
+                                <p>Votre projet est conséquent et vous ne pouvez pas commencer à utiliser l'outil que vous souhaitez faire développer avant qu'il ne soit totalement terminé ?</p>
+                                <p>Votre entreprise préfère les méthodes plus traditionnelles de gestion de projet ?</p>
+                                <p>Nous nous adaptons à vos besoins&nbsp;!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-methodes" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-methodes" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
                 <div>
-                    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+                    <div class="d-xs-block d-sm-block d-md-none d-lg-none d-xl-none">
+                        <div class="card">
+                            <img class="card-img-top" src="image/scrum.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Scrum</h4>
+                                <p class="card-text">Vous êtes capable de vous investir à 200&nbsp;% dans votre projet&nbsp;?</p>
+                                <p class="card-text">Vous voulez pouvoir disposer de votre outil le plus tôt possible&nbsp;?</p>
+                                <p class="card-text">Nous pouvons vous former à cette méthode&nbsp;!</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="image/kanban.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Kanban</h4>
+                                <p>Vous travaillez en Kanban et souhaitez intégrer notre entreprise à vos process ?</p>
+                                <p>Vous souhaitez savoir où nous en sommes et ce sur quoi nous travaillons en temps réel ?</p>
+                                <p>Nous sommes capables de vous offrir cette transparence&nbsp;!</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="image/cycle-v.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Cycle en V</h4>
+                                <p>Votre projet est conséquent et vous ne pouvez pas commencer à utiliser l'outil que vous souhaitez faire développer avant qu'il ne soit totalement terminé ?</p>
+                                <p>Votre entreprise préfère les méthodes plus traditionnelles de gestion de projet ?</p>
+                                <p>Nous nous adaptons à vos besoins&nbsp;!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
