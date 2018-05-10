@@ -115,3 +115,28 @@ body {
 .card {
     margin-top: 20px;
 }
+
+.derniere-section {
+    padding-bottom: 5em;
+}
+
+#bottomNavbar > div {
+    width: 100%;
+}
+
+#bottomNavbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    #bottomNavbar .navbar-nav {
+        float: none;
+    }
+}
+
+#bottomNavbar .nav-item {
+    margin-right: 20px;
+    margint-left: 20px;
+}
+
