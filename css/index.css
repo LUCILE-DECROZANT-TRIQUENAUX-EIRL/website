@@ -48,7 +48,7 @@ body {
 }
 
 .principal-texte .container h1 {
-    font-family: "Sansation";
+    font-family: "sansationregular";
 }
 
 @media screen and (min-width: 640px) {
@@ -103,7 +103,7 @@ body {
 }
 
 .section-texte h1 {
-    font-family: "Sansation";
+    font-family: "sansationregular";
     color: #096593;
     margin-bottom: 20px;
 }
