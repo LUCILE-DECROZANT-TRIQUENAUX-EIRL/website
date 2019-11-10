@@ -116,6 +116,14 @@ body {
     margin-top: 20px;
 }
 
+.card-text {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
 .derniere-section {
     padding-bottom: 5em;
 }
