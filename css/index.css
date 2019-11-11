@@ -136,6 +136,10 @@ body {
     transform: scale(1.1);
 }
 
+.card-text > ul {
+    list-style: square outside;
+}
+
 .derniere-section {
     padding-bottom: 5em;
 }
