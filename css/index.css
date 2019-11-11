@@ -124,6 +124,18 @@ body {
     hyphens: auto;
 }
 
+.zoom-img-top {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: transform .5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
 .derniere-section {
     padding-bottom: 5em;
 }
