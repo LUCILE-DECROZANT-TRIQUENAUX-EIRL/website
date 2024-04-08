@@ -1,6 +1,10 @@
 * {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     scroll-behavior: smooth;
+}
+
+a {
+    color: #2678A0;
 }
 
 .btn-primary {
@@ -44,16 +48,17 @@ body {
 .jumbotron {
     background-color: transparent;
     color: white;
-    min-height: 90vh;
+    min-height: 70vh;
+    text-align: center;
 }
 
 .principal-texte .container h1 {
-    font-family: "sansationregular";
+    font-family: "sansationregular", serif;
 }
 
 @media screen and (min-width: 640px) {
     .principal-texte .container h1 {
-        font-size: 6vw;
+        font-size: 6rem;
     }
 
     .principal-texte {
@@ -66,11 +71,15 @@ body {
     }
 
     .principal-texte .container a.btn {
-        font-size: 1.5em;
+        font-size: 2em;
+        font-family: "sansationregular", sans-serif;
+        padding: 0.675rem 1.75rem;
+        border-radius: 0.65rem;
     }
 
-    #carousel-methodes img {
-        min-height: 300px;
+    .lead {
+        font-size: 1.5rem;
+        line-height: 2;
     }
 }
 
@@ -99,21 +108,53 @@ body {
 
 .section-texte {
     background-color: white;
-    padding-top: 50px;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
 }
 
 .section-texte h1 {
-    font-family: "sansationregular";
+    font-family: "sansationregular", serif;
     color: #096593;
     margin-bottom: 20px;
 }
 
-#carousel-methodes img {
-    background-color: #888;
+img.logo-technologie {
+    height: 8.5rem;
+    width: auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#carousel-avis {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#carousel-avis,
+#carousel-avis > .carousel-inner,
+#carousel-avis > .carousel-inner > .carousel-item,
+#carousel-avis > .carousel-inner > .carousel-item > div {
+    min-height: 25rem;
+}
+
+#carousel-avis > .carousel-inner > .carousel-item p {
+    font-size: 1.4rem;
+    font-family: 'Open Sans Light', sans-serif !important;
+    font-weight: 300;
+    color: #c5c5c5;
+    line-height: 1.7;
+}
+
+#carousel-avis > .carousel-inner > .carousel-item:nth-child(even) {
+    /*background-color: #096593;*/
 }
 
 .card {
-    margin-top: 20px;
+    margin-top: 14.5rem;
+    padding-top: 12.5rem;
+    border-radius: 0;
 }
 
 .card-text {
@@ -126,14 +167,32 @@ body {
 
 .zoom-img-top {
     overflow: hidden;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
 }
 
 .card-img-top {
     transition: transform .5s ease;
+    width: auto;
+    max-height: 25rem;
+    border-radius: 100%;
+    position: absolute;
+    top: -12.5rem;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
 }
 
 .card-img-top:hover {
     transform: scale(1.1);
+}
+
+.card-title {
+    font-family: "sansationregular", serif;
+    color: #096593;
 }
 
 .card-text > ul {
@@ -163,4 +222,3 @@ body {
     margin-right: 20px;
     margin-left: 20px;
 }
-
